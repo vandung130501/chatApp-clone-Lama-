@@ -1,0 +1,16 @@
+@import 'reset';
+@import 'variable';
+@import 'register';
+@import 'homePage';
+@import './components/navbar';
+@import './components/chat';
+@import './components/chats';
+@import './components/message';
+@import './components/sidebar';
+@import './components/input';
+@import './components/search';
+html,
+button,
+input::placeholder {
+  font-family: 'Patrick Hand', sans-serif;
+}

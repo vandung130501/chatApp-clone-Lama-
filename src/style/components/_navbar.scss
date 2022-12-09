@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: $purpose-2;
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+  color: $text-white;
+  .logo {
+    font-weight: bold;
+  }
+  .user {
+    display: flex;
+    gap: 10px;
+    img {
+      background-color: $text-white;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    button {
+      background-color: $purpose-1;
+      color: $text-white;
+      font-size: 10px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
